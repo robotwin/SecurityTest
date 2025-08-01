@@ -6,6 +6,7 @@ def Merge_cells(ws,target_list,start_row,col):
     start_row: 是开始行，即工作表中开始比对数据的行（需要将标题除开）
     col: 是需要处理数据的列
     '''
+    print("hey siri")
     start = 0 #开始行计数，初试值为0，对应列表中的第1个元素的位置0
     end = 0 #结束行计数，初试值为0，对应列表中的第1个元素的位置0
     reference = target_list[0] #设定基准，以列表中的第一个字符串开始
