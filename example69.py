@@ -1,6 +1,6 @@
 import os #用于获取目标文件所在路径
 import win32com
-print("hello,12345")
+print("hello,67890")
 path=os.getcwd()+"\\文件\\" # 文件夹绝对路径
 files=[]
 for file in os.listdir(path):
