@@ -1,3 +1,4 @@
+#Copyright (C) 2024 Carizon.
 import os #用于获取目标文件所在路径
 import win32com
 print("hello,67890")
