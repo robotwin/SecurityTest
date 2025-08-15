@@ -3,7 +3,7 @@ from docx import Document
 from openpyxl import Workbook
 #Copyright (C) 2025 Carizon12345
 #获取待处理的文件的路径
-#hello88888999999
+#hello
 path='word文件'  #文件所在文件夹
 files = [path+"\\"+i for i in os.listdir(path)] #获取文件夹下的文件名,并拼接完整路径
 
